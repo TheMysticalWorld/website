@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Just+Another+Hand&display=swap');
+
+.graphology-text-div {
+  width: 30vw;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transform: translateY(-40%);
+}
+
+.graphology-text1 {
+  font-family: "Just Another Hand", cursive;
+  font-size: 3em;
+}
+
+.graphology-text2 {
+  font-family: "Cedarville Cursive", cursive;
+  font-size: 2em;
+}
+
+@media screen and (max-width: 690px) {
+  .graphology-text-div {
+    transform: translateY(0);
+    margin: 3em 0;
+  }
+}

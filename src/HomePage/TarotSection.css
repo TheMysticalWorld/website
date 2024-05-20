@@ -1,0 +1,61 @@
+.view-more-cards-div {
+  position: relative;
+  height: 30vh;
+  width: 30vw;
+}
+
+.view-more-card {
+  background: white;
+  background-size: cover;
+  height: 220px;
+  width: 150px;
+  border-radius: 5px;
+  position: absolute;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  left: 50%;
+  top: 50%;
+  transform-origin: center 120%;
+  transition: transform 1s ease-out;
+}
+
+.view-more-cards {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.view-more-cards div:nth-child(1) {
+  transform: translate(-50%, -50%) rotate(-16.6666666667deg);
+}
+.view-more-cards div:nth-child(2) {
+  transform: translate(-50%, -50%) rotate(-8.3333333333deg);
+}
+.view-more-cards div:nth-child(3) {
+  transform: translate(-50%, -50%) rotate(0deg);
+}
+.view-more-cards div:nth-child(4) {
+  transform: translate(-50%, -50%) rotate(8.3333333333deg);
+}
+.view-more-cards div:nth-child(5) {
+  transform: translate(-50%, -50%) rotate(16.6666666667deg);
+}
+.view-more-cards:hover div:nth-child(1) {
+  transform: translate(-50%, -50%) rotate(-20deg);
+}
+.view-more-cards:hover div:nth-child(2) {
+  transform: translate(-50%, -50%) rotate(-10deg);
+}
+.view-more-cards:hover div:nth-child(3) {
+  transform: translate(-50%, -50%) rotate(0deg);
+}
+.view-more-cards:hover div:nth-child(4) {
+  transform: translate(-50%, -50%) rotate(10deg);
+}
+.view-more-cards:hover div:nth-child(5) {
+  transform: translate(-50%, -50%) rotate(20deg);
+}
+
+@media screen and (max-width: 690px) {
+  .view-more-cards-div {
+    margin: 4em 0;
+  }
+}

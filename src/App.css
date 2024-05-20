@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.main {
+  position: relative;
+  overflow: hidden;
+}
+
+.background {
+  position: absolute;
+  z-index: -1;
+  height: 100vh;
+  width: 100vw;
+  background-image: radial-gradient(circle at 40% 91%, rgba(251, 251, 251,0.04) 0%, rgba(251, 251, 251,0.04) 50%,rgba(229, 229, 229,0.04) 50%, rgba(229, 229, 229,0.04) 100%),radial-gradient(circle at 66% 97%, rgba(36, 36, 36,0.04) 0%, rgba(36, 36, 36,0.04) 50%,rgba(46, 46, 46,0.04) 50%, rgba(46, 46, 46,0.04) 100%),radial-gradient(circle at 86% 7%, rgba(40, 40, 40,0.04) 0%, rgba(40, 40, 40,0.04) 50%,rgba(200, 200, 200,0.04) 50%, rgba(200, 200, 200,0.04) 100%),radial-gradient(circle at 15% 16%, rgba(99, 99, 99,0.04) 0%, rgba(99, 99, 99,0.04) 50%,rgba(45, 45, 45,0.04) 50%, rgba(45, 45, 45,0.04) 100%),radial-gradient(circle at 75% 99%, rgba(243, 243, 243,0.04) 0%, rgba(243, 243, 243,0.04) 50%,rgba(37, 37, 37,0.04) 50%, rgba(37, 37, 37,0.04) 100%),linear-gradient(90deg, rgb(117,100,147),rgb(135, 89, 215));
+  transform: translateY(calc(var(--offset-counter) * 100vh)) scaleY(var(--scale-factor));
+}
+
+.float {
+  --float-offset: 15px;
+  animation-name: float;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes float {
+  0% { transform: translate(0,  0); }
+  50%  { transform: translate(0, var(--float-offset)); }
+  100%   { transform: translate(0, 0); }
+}
+
+.page-layout {
+  height: 100vh;
+  width: 100vw;
+  padding-top: 2em;
+  margin-left: 3em;
+  padding-right: 5em;
+}
+
+.page-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 4em;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.page-title-underline {
+  height: 10px;
+  transition: transform 300ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transform-origin: left;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200%25' height='100%25'%3E%3Cdefs%3E%3Cstyle%3E .wave%7B animation:wave 1s ease-in-out infinite alternate; animation-delay:-0.25s; stroke:%23e0ff00; stroke-width:2; stroke-linecap:square; %7D @keyframes wave%7B to%7B d:path('M 0 40 Q 20 42.5 40 40 Q 60 37.5 80 40'); %7D %7D %3C/style%3E%3C/defs%3E%3Cpattern id='wavePattern' x='0' y='0' width='80' height='80' patternUnits='userSpaceOnUse'%3E%3Cpath fill='none' class='wave' d='M 0 40 Q 20 37.5 40 40 Q 60 42.5 80 40' /%3E%3C/pattern%3E%3Crect x='0' y='0' width='100%25' height='100%25' fill='url(%23wavePattern)'%3E%3C/rect%3E%3C/svg%3E") 0px 50%/80px 80px repeat-x;
+  animation: navbar-waving 3s linear infinite;
+  transform: scaleX(1) translateY(-0.1em);
+}
+
+@keyframes navbar-waving {
+  to {
+    background-position: 80px 50%, 160px 50%;
+  }
+}
+
+.page-inner {
+  display: flex;
+  gap: 5em;
+  height: 75%;
+  align-items: center;
+}
+
+.page-inner-flip{
+  flex-direction: row-reverse;
+}
+
+.page-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3em;
+  padding-top: 5em;
+}
+
+.page-content {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+.know-more-btn {
+  --btn-color: #e6ddd6;
+  all: unset;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0.6em 2em;
+  border: var(--btn-color) solid 0.15em;
+  border-radius: 0.25em;
+  color: var(--btn-color);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.3em;
+  font-weight: 600;
+  cursor: pointer;
+  overflow: hidden;
+  transition: border 300ms, color 300ms;
+  user-select: none;
+}
+
+.know-more-btn p {
+  z-index: 1;
+}
+
+.know-more-btn:hover {
+  color: #212121;
+}
+
+.know-more-btn:active {
+  border-color: teal;
+}
+
+.know-more-btn::after, .know-more-btn::before {
+  content: "";
+  position: absolute;
+  width: 9em;
+  aspect-ratio: 1;
+  background: var(--btn-color);
+  opacity: 50%;
+  border-radius: 50%;
+  transition: transform 500ms, background 300ms;
+}
+
+.know-more-btn::before {
+  left: 0;
+  transform: translateX(-8em);
+}
+
+.know-more-btn::after {
+  right: 0;
+  transform: translateX(8em);
+}
+
+.know-more-btn:hover:before {
+  transform: translateX(-1em);
+}
+
+.know-more-btn:hover:after {
+  transform: translateX(1em);
+}
+
+.know-more-btn:active:before,
+.know-more-btn:active:after {
+  background: teal;
+}
+
+@media screen and (max-width: 690px) {
+  .page-layout {
+    height: 100%;
+  }
+
+  .page-title {
+    font-size: 3em;
+  }
+
+  .page-inner {
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  .page-data {
+    padding-top: 0;
+  }
+}

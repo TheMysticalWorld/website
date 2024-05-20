@@ -1,0 +1,19 @@
+.perks-inner {
+  justify-content: space-around;
+}
+
+.perks-inner > h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.perk-certificate-img {
+  height: 50vh;
+  border: 2px solid #ffffff;
+  filter: drop-shadow(-5px 5px 10px rgba(0, 0, 0, 1));
+}
+
+@media screen and (max-width: 690px) {
+  .perks-inner {
+    margin: 3em 0;
+  }
+}

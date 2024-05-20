@@ -1,0 +1,23 @@
+.counselling-vector-img {
+  height: 35vh;
+  transform: translateY(-10%);
+}
+
+@media screen and (max-width: 890px) {
+  .counselling-vector-img {
+    height: 25vh;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .counselling-vector-img {
+    height: 20vh;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .counselling-vector-img {
+    height: 28vh;
+    margin: 2em 0;
+  }
+}

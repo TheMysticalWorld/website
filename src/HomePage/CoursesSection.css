@@ -1,0 +1,83 @@
+.courses-page {
+  justify-content: center;
+  margin: 2em;
+}
+
+.course-card {
+  width: 30vw;
+  background-color: #ffffff;
+  padding: 2em 1em;
+  border-radius: 10px;
+  box-shadow: -5px 15px 30px 2px rgba(0, 0, 0, 0.5);
+}
+
+.course-title {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.course-feature {
+  display: flex;
+  justify-content: center;
+  margin: 1em 0;
+}
+
+.course-tarot-img {
+  height: 20vh;
+  filter: drop-shadow(0 0 3px rgba(0, 0, 0, 1));
+}
+
+.course-graphology-img {
+  height: 20vh;
+}
+
+.course-length-label {
+  font-family: sans-serif;
+}
+
+.course-length {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #222222;
+}
+
+.course-details {
+  margin: 1em 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.course-btn-div {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1080px) {
+  .courses-page {
+    padding: 5em 0;
+  }
+
+  .course-card {
+    width: 40vw;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .courses-page-layout {
+    height: auto !important;
+  }
+
+  .courses-page {
+    flex-direction: column;
+    padding-bottom: 3em;
+  }
+
+  .course-card {
+    width: 70vw;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .courses-page {
+    gap: 3em !important;
+  }
+}

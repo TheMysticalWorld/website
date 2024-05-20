@@ -1,0 +1,138 @@
+.footer-div {
+  width: 100vw;
+  height: 42vh;
+  position: relative;
+  overflow-y: hidden;
+}
+
+.footer-bg {
+  width: 100vw;
+  height: 42vh;
+  background: rgb(7, 7, 7);
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer-tag {
+  font-size: 2em;
+  padding-top: 2em;
+  padding-left: 2em;
+}
+
+.footer-location {
+  padding-top: 3em;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2em;
+  align-items: center;
+}
+
+.footer-links > :first-child {
+  padding-bottom: 1.5em;
+}
+
+.footer-links > div > a {
+  text-decoration: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.footer-links > div > a > i {
+  height: 2em;
+  margin-right: 0.5em;
+}
+
+.footer-base-details {
+  grid-column: 1 / span 3;
+  justify-self: center;
+  display: flex;
+  gap: 2em;
+  align-items: flex-end;
+  padding-bottom: 1em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.website-credits {
+  color: #ffffff;
+  font-size: 1.2em;
+}
+
+.website-credits > a {
+  text-decoration: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.website-copyright {
+  color: #999999;
+  font-size: 1.2em;
+}
+
+@media screen and (max-width: 570px) {
+  .footer-div {
+    height: 100%;
+  }
+
+  .footer-bg {
+    height: 100%;
+    grid-template-columns: 1fr 1fr;
+    padding: 1em 1em 0 1em;
+  }
+
+  .footer-tag {
+    font-size: 2em;
+    padding: 0;
+  }
+
+  .footer-location {
+    padding: 0;
+  }
+
+  .footer-links {
+    flex-direction: row;
+    padding: 0;
+    align-items: flex-start;
+  }
+
+  .footer-links > :first-child {
+    padding-bottom: 0;
+    padding-right: 1em;
+  }
+
+  .footer-links > div > a {
+    font-size: 0;
+  }
+
+  .footer-links > div > a > i {
+    font-size: 30px;
+  }
+
+  .footer-base-details {
+    grid-column: 1 / span 2;
+  }
+}
+
+@media screen and (max-width: 516px) {
+  .footer-base-details {
+    font-size: 0.8em;
+    margin-top: 1em;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .footer-bg {
+    grid-template-columns: 1fr;
+    gap: 1.5em;
+  }
+
+  .footer-base-details {
+    grid-column: 1 / span 1;
+  }
+}

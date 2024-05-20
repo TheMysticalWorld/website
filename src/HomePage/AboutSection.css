@@ -1,0 +1,119 @@
+.about-inner {
+  flex-direction: row-reverse !important;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.about-svg1 {
+  width: 35vw;
+  animation: spin infinite 60s;
+  filter: drop-shadow(0 0 30px rgba(0, 0, 0, 0.4));
+}
+
+.about-img {
+  position: absolute;
+  height: 50vh;
+  transform: translateX(-24vw) translateY(-10vh);
+  filter: drop-shadow(0 0 30px rgba(0, 0, 0, 0.2));
+}
+
+.about-svg2 {
+  position: absolute;
+  width: 70%;
+  transform: translateX(-34vw) translateY(15vh);
+  filter: drop-shadow(0 0 30px rgba(0, 0, 0, 0.4));
+}
+
+.about-svg3 {
+  position: absolute;
+  width: 80%;
+  transform: translateX(-25vw) translateY(15vh);
+  filter: drop-shadow(0 0 30px rgba(0, 0, 0, 0.4));
+}
+
+@media screen and (max-width: 1260px) {
+  .about-svg1 {
+    width: 45vw;
+  }
+
+  .about-img {
+    transform: translateX(-29vw) translateY(-10vh);
+  }
+  
+  .about-svg2 {
+    width: 80%;
+    transform: translateX(-39vw) translateY(15vh);
+  }
+  
+  .about-svg3 {
+    width: 90%;
+    transform: translateX(-29vw) translateY(15vh);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .about-img {
+    height: 40vh;
+  }
+  
+  .about-svg2 {
+    transform: translateX(-39vw) translateY(10vh);
+  }
+  
+  .about-svg3 {
+    transform: translateX(-29vw) translateY(10vh);
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .about-svg1 {
+    width: 50vw;
+  }
+  
+  .about-svg3 {
+    width: 90%;
+    transform: translateX(-26vw) translateY(10vh);
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .about-inner {
+    flex-direction: column !important;
+  }
+
+  .about-inner > :first-child {
+    margin: 2em 0;
+    margin-right: 7em;
+  }
+
+  .about-svg1 {
+    width: 60vw;
+  }
+
+  .about-img {
+    transform: translateX(-35vw) translateY(-10vh);
+  }
+
+  .about-svg2 {
+    width: 90%;
+    transform: translateX(-50vw) translateY(10vh);
+  }
+  
+  .about-svg3 {
+    width: 100%;
+    transform: translateX(-30vw) translateY(10vh);
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .about-inner {
+    margin: 2em 0;
+  }
+}
