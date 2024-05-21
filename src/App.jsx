@@ -15,6 +15,7 @@ function App() {
   return (
     <>
       <div className="main">
+        <div className="background" style={{ "--offset-counter": 0, "--scale-factor": -1 }}></div>
         <div className="background" style={{ "--offset-counter": 1, "--scale-factor": 1 }}></div>
         <div className="background" style={{ "--offset-counter": 2, "--scale-factor": -1 }}></div>
         <div className="background" style={{ "--offset-counter": 3, "--scale-factor": 1 }}></div>
