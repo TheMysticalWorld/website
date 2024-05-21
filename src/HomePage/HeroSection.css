@@ -101,8 +101,6 @@
 
 @media screen and  (max-width: 670px) {
   .hero-img {
-    width: 100vw;
-    height: auto;
     margin-top: 60px;
   }
 
@@ -113,6 +111,13 @@
   .hero-logo {
     display: initial;
     filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
+    width: 60vw;
+    height: auto;
+    overflow: unset;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .hero-bg-gradient {
@@ -143,12 +148,7 @@
   }
 
   .hero-title-svg {
-    top: 25vh;
-    --float-offset: 15px;
-    animation-name: float;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    display: none;
   }
 
   .hero-title {
