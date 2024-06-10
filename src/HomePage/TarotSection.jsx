@@ -28,7 +28,7 @@ const TarotSection = () => {
           </div>
         </div>
         <div className="page-data">
-          <div className="page-content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit non est fugiat culpa officia ratione, natus expedita. Explicabo magni molestias harum esse perspiciatis? Corporis nisi maxime incidunt animi et molestias autem consectetur blanditiis porro excepturi exercitationem fuga enim maiores aliquid odit a rem itaque perferendis molestiae ipsam consequuntur, accusantium vitae. Tempore, architecto aperiam! Distinctio odit eos quos voluptatibus beatae aliquid enim cum nesciunt numquam eius accusamus ratione, voluptatum quas optio possimus ullam ducimus quisquam quod architecto molestiae voluptas ipsa. Accusantium quos odio, inventore earum sequi corporis odit non? Amet ratione illum porro minima, magni debitis repudiandae dolor voluptate odit nemo.</div>
+          <div className="page-content">Tarot card reading uses a deck of 78 cards to provide insight and guidance. Each card’s symbols and meanings help clarify personal issues, support decision-making, and promote self-understanding. Tarot readings reveal hidden influences, suggest potential outcomes, and inspire personal growth, helping clients navigate life’s challenges with confidence and insight.</div>
           <button className="know-more-btn" onClick={() => handleModalEnable("tarot")}>
             <p>Know More!</p>
           </button>

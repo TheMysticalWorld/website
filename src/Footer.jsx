@@ -11,27 +11,31 @@ const Footer = () => {
             revealing truths.
           </div>
           <div className="footer-location">
-            Jaipur
-            <br />
-            <br />
-            mailme@to.com
-            <br />
-            +91 0000000000
-            <br />
-            <br />
-            Address to the clinic or
-            <br />
-            resident.
+            <div>
+              Jaipur
+              <br />
+              <br />
+              <a href="mailto:theemysticalworld@gmail.com" style={{ textDecoration: "none", color: "inherit" }}>
+                theemysticalworld@gmail.com
+              </a>
+              <br />
+              +91 0000000000
+              <br />
+              <br />
+              Address to the clinic or
+              <br />
+              resident.
+            </div>
           </div>
           <div className="footer-links">
             <div>Reach us on:</div>
             <div>
-              <a href="">
+              <a href="https://www.instagram.com/theemysticalworld?igsh=cjhweWNlMWw3dmxv">
                 <i className="fa fa-instagram fa-lg" aria-hidden="true"></i>
-                Username
+                Muskan Sehgal
               </a>
             </div>
-            <div>
+            {/* <div>
               <a href="">
                 <i className="fa fa-twitter-square fa-lg"></i>
                 Username
@@ -42,11 +46,11 @@ const Footer = () => {
                 <i className="fa fa-facebook-official fa-lg" aria-hidden="true"></i>
                 Username
               </a>
-            </div>
+            </div> */}
             <div>
-              <a href="">
+              <a href="https://www.linkedin.com/in/muskan-sehgal-0b709a1a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
                 <i className="fa fa-linkedin-square fa-lg" aria-hidden="true"></i>
-                Username
+                Muskan Sehgal
               </a>
             </div>
           </div>

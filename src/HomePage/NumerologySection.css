@@ -12,6 +12,7 @@
   top: 35%;
   left: 50%;
   transform: rotate(20deg);
+  -webkit-text-stroke: 2px white;
 }
 
 .numerology-num4 {
@@ -19,6 +20,7 @@
   top: 0%;
   left: 30%;
   transform: rotate(-10deg);
+  -webkit-text-stroke: 2px white;
 }
 
 .numerology-num5 {
@@ -26,6 +28,7 @@
   top: 10%;
   left: 50%;
   transform: rotate(20deg);
+  -webkit-text-stroke: 2px white;
 }
 
 .numerology-num7 {
@@ -33,6 +36,7 @@
   top: 30%;
   left: 25%;
   transform: rotate(10deg);
+  -webkit-text-stroke: 2px white;
 }
 
 @media screen and (max-width:690px) {

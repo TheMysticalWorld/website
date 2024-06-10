@@ -2,6 +2,8 @@ import { modalData } from "./ModalData.js";
 
 import "./OverlayModal.css";
 
+var formSrc = "";
+
 const handleInquire = () => {
   document.querySelector(".modal-details-head").style.display = "none";
   document.querySelector(".modal-details").innerHTML = "";
@@ -9,7 +11,7 @@ const handleInquire = () => {
 
   var formIFrame = document.createElement("iframe");
   formIFrame.classList.add("form-iFrame");
-  formIFrame.setAttribute("src", "https://docs.google.com/forms/d/e/1FAIpQLScKNraC_97qAQ4QopWtWBnF8wG7049OB6wlQFJC9QP9ZDAVzA/viewform?embedded=true");
+  formIFrame.setAttribute("src", { formSrc });
   formIFrame.setAttribute("width", "100%");
   formIFrame.setAttribute("height", "100%");
   formIFrame.setAttribute("frameBorder", "0");
@@ -26,6 +28,7 @@ export const handleModalEnable = (id) => {
   document.querySelector(".modal-inquire-btn-div").style.display = "flex";
   var modalDetails = document.querySelector(".modal-details");
   modalDetails.innerHTML = "";
+  formSrc = data.formLink;
 
   data.services.forEach((service) => {
     var serviceDiv = document.createElement("div");

@@ -16,7 +16,24 @@ const CounsellingSection = () => {
           <img src={counsellingVector} alt="Counselling Vector Image" className="counselling-vector-img" />
         </div>
         <div className="page-data">
-          <div className="page-content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit non est fugiat culpa officia ratione, natus expedita. Explicabo magni molestias harum esse perspiciatis? Corporis nisi maxime incidunt animi et molestias autem consectetur blanditiis porro excepturi exercitationem fuga enim maiores aliquid odit a rem itaque perferendis molestiae ipsam consequuntur, accusantium vitae. Tempore, architecto aperiam! Distinctio odit eos quos voluptatibus beatae aliquid enim cum nesciunt numquam eius accusamus ratione, voluptatum quas optio possimus ullam ducimus quisquam quod architecto molestiae voluptas ipsa. Accusantium quos odio, inventore earum sequi corporis odit non? Amet ratione illum porro minima, magni debitis repudiandae dolor voluptate odit nemo.</div>
+        <div className="page-content">
+            Counseling provides professional guidance to address personal challenges and improve well-being.
+            <br />
+            <br />
+            Marriage counseling helps couples enhance communication and resolve conflicts.
+            <br />
+            <br />
+            Child counseling supports children's emotional and behavioral development.
+            <br />
+            <br />
+            Career counseling assists in making informed career choices and navigating job-related issues.
+            <br />
+            <br />
+            Relationship counseling strengthens interpersonal dynamics and resolves conflicts.
+            <br />
+            <br />
+            Counseling clarifies issues, guides decisions, and fosters self-awareness, helping individuals and families navigate life's challenges with greater confidence and insight.
+          </div>
           <button className="know-more-btn" onClick={() => handleModalEnable("counselling")}>
             <p>Know More!</p>
           </button>

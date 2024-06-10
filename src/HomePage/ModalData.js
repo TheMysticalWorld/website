@@ -8,7 +8,7 @@ export const modalData = {
       ["60 mins", "Rs.1320/-"],
       ["75 mins", "Rs.1650/-"],
     ],
-    formLink: "a",
+    formLink: "https://docs.google.com/forms/d/e/1FAIpQLScr8_ccIx_nXuKKGOxh-W9pWWy8xpoDGN4QckUtgw1kXWBRcA/viewform?embedded=true",
   },
   numerology: {
     title: "Numerology",
@@ -17,7 +17,7 @@ export const modalData = {
       ["Marraige compatibility", "Rs.2200/-"],
       ["Crystal suggestion", "Rs.499/-"],
     ],
-    formLink: "b",
+    formLink: "https://docs.google.com/forms/d/e/1FAIpQLScKNraC_97qAQ4QopWtWBnF8wG7049OB6wlQFJC9QP9ZDAVzA/viewform?embedded=true",
   },
   graphology: {
     title: "Graphology",
@@ -27,7 +27,7 @@ export const modalData = {
       ["Handwriting analysis", "Rs.1100/-"],
       ["Graphotherapy", "Rs.1200/-"],
     ],
-    formLink: "c",
+    formLink: "https://docs.google.com/forms/d/e/1FAIpQLSdAdTqkq3vYfF_IK6xxUp4P56iPSKVlSf8dFx5sdQRkj2unOA/viewform?embedded=true",
   },
   counselling: {
     title: "Counselling",
@@ -37,16 +37,16 @@ export const modalData = {
       ["Career counselling", "-"],
       ["Relationship counselling", "-"],
     ],
-    formLink: "d",
+    formLink: "https://docs.google.com/forms/d/e/1FAIpQLSeleedaq_dOAOG3gFUxU25gYv-iPQ19kaNUrVmV9i7NKUYUXQ/viewform?embedded=true",
   },
   tarotCourse: {
     title: "Tarot Professional Course",
     services: [["Tarot Professional Course", "Rs.11000/-"]],
-    formLink: "e",
+    formLink: "https://docs.google.com/forms/d/e/1FAIpQLScKNraC_97qAQ4QopWtWBnF8wG7049OB6wlQFJC9QP9ZDAVzA/viewform?embedded=true",
   },
   graphologyCourse: {
     title: "Graphology Course",
     services: [["Graphology Course", "Rs.16000/-"]],
-    formLink: "f",
+    formLink: "https://docs.google.com/forms/d/e/1FAIpQLScKNraC_97qAQ4QopWtWBnF8wG7049OB6wlQFJC9QP9ZDAVzA/viewform?embedded=true",
   },
 };

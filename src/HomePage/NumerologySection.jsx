@@ -27,7 +27,7 @@ const NumerologySection = () => {
           </div>
         </div>
         <div className="page-data">
-          <div className="page-content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit non est fugiat culpa officia ratione, natus expedita. Explicabo magni molestias harum esse perspiciatis? Corporis nisi maxime incidunt animi et molestias autem consectetur blanditiis porro excepturi exercitationem fuga enim maiores aliquid odit a rem itaque perferendis molestiae ipsam consequuntur, accusantium vitae. Tempore, architecto aperiam! Distinctio odit eos quos voluptatibus beatae aliquid enim cum nesciunt numquam eius accusamus ratione, voluptatum quas optio possimus ullam ducimus quisquam quod architecto molestiae voluptas ipsa. Accusantium quos odio, inventore earum sequi corporis odit non? Amet ratione illum porro minima, magni debitis repudiandae dolor voluptate odit nemo.</div>
+          <div className="page-content">Numerology is the study of numbers' mystical significance and their influence on life. By analyzing numbers in your birth date and name, numerology offers insights into personality, strengths, and life path. This practice can help clarify personal issues, guide decisions, and foster self-awareness. Numerology reveals patterns, suggests potential outcomes, and inspires personal growth, helping individuals navigate life with greater confidence and insight.</div>
           <button className="know-more-btn" onClick={() => handleModalEnable("numerology")}>
             <p>Know More!</p>
           </button>
