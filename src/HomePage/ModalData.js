@@ -17,7 +17,7 @@ export const modalData = {
       ["Marraige compatibility", "Rs.2200/-"],
       ["Crystal suggestion", "Rs.499/-"],
     ],
-    formLink: "https://docs.google.com/forms/d/e/1FAIpQLScKNraC_97qAQ4QopWtWBnF8wG7049OB6wlQFJC9QP9ZDAVzA/viewform?embedded=true",
+    formLink: "https://docs.google.com/forms/d/e/1FAIpQLScr8_ccIx_nXuKKGOxh-W9pWWy8xpoDGN4QckUtgw1kXWBRcA/viewform?embedded=true",
   },
   graphology: {
     title: "Graphology",
@@ -42,11 +42,11 @@ export const modalData = {
   tarotCourse: {
     title: "Tarot Professional Course",
     services: [["Tarot Professional Course", "Rs.11000/-"]],
-    formLink: "https://docs.google.com/forms/d/e/1FAIpQLScKNraC_97qAQ4QopWtWBnF8wG7049OB6wlQFJC9QP9ZDAVzA/viewform?embedded=true",
+    formLink: "https://docs.google.com/forms/d/e/1FAIpQLSfcqqp1P39DAH_fbaakrsv9gqDBAb4hXA3LYqOE_EvlNqiJ3g/viewform?embedded=true",
   },
   graphologyCourse: {
     title: "Graphology Course",
     services: [["Graphology Course", "Rs.16000/-"]],
-    formLink: "https://docs.google.com/forms/d/e/1FAIpQLScKNraC_97qAQ4QopWtWBnF8wG7049OB6wlQFJC9QP9ZDAVzA/viewform?embedded=true",
+    formLink: "https://docs.google.com/forms/d/e/1FAIpQLSfcqqp1P39DAH_fbaakrsv9gqDBAb4hXA3LYqOE_EvlNqiJ3g/viewform?embedded=true",
   },
 };
