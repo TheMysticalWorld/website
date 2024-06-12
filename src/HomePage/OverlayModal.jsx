@@ -11,7 +11,7 @@ const handleInquire = () => {
 
   var formIFrame = document.createElement("iframe");
   formIFrame.classList.add("form-iFrame");
-  formIFrame.setAttribute("src", { formSrc });
+  formIFrame.setAttribute("src", formSrc);
   formIFrame.setAttribute("width", "100%");
   formIFrame.setAttribute("height", "100%");
   formIFrame.setAttribute("frameBorder", "0");
