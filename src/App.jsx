@@ -8,6 +8,7 @@ import GraphologySection from "./HomePage/GraphologySection";
 import CounsellingSection from "./HomePage/CounsellingSection";
 import CoursesSection from "./HomePage/CoursesSection";
 import PerksSection from "./HomePage/PerksSection";
+import FeedbackSection from "./HomePage/FeedbackSection";
 import Footer from "./Footer";
 import "./App.css";
 
@@ -37,6 +38,7 @@ function App() {
         <CounsellingSection />
         <CoursesSection />
         <PerksSection />
+        <FeedbackSection />
         <Footer />
       </div>
     </>
