@@ -12,19 +12,14 @@ const Footer = () => {
           </div>
           <div className="footer-location">
             <div>
-              Jaipur
+              Delhi
               <br />
               <br />
               <a href="mailto:theemysticalworld@gmail.com" style={{ textDecoration: "none", color: "inherit" }}>
                 theemysticalworld@gmail.com
               </a>
               <br />
-              +91 0000000000
-              <br />
-              <br />
-              Address to the clinic or
-              <br />
-              resident.
+              +91 89491 20312
             </div>
           </div>
           <div className="footer-links">
