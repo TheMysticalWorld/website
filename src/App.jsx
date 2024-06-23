@@ -28,6 +28,7 @@ function App() {
         <div className="background" style={{ "--offset-counter": 9, "--scale-factor": 1 }}></div>
         <div className="background" style={{ "--offset-counter": 10, "--scale-factor": -1 }}></div>
         <div className="background" style={{ "--offset-counter": 11, "--scale-factor": 1 }}></div>
+        <div className="background" style={{ "--offset-counter": 12, "--scale-factor": -1 }}></div>
         <Navbar />
         <OverlayModal />
         <HeroSection />

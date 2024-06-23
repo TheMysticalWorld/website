@@ -1,0 +1,66 @@
+:root {
+    --feedback-card-width: -50vw;
+  }
+  
+  .feedback-card {
+    min-height: 25vh;
+    min-width: 50vw;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 4px 4px 20px 2px rgba(0, 0, 0, 0.6);
+    padding: 2em;
+  }
+  
+  .feedback-header {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin-bottom: 2em;
+  }
+  
+  .feedback-profile-picture {
+    height: 2em;
+    width: 2em;
+    background-color: deepskyblue;
+    border: 2px solid royalblue;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", 'Segoe UI', sans-serif;
+    font-size: 1.2em;
+    font-weight: 600;
+  }
+  
+  .feedback-name-rating-div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .feedback-name {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.1em;
+    font-weight: 500;
+  }
+  
+  .feedback-rating {
+    color: gold;
+    font-size: 0.9em;
+    display: flex;
+    gap: 2px;
+    text-shadow: 0 0 2px #000;
+  }
+  
+  .feedback-experience {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  @media screen and (max-width: 500px) {
+    :root {
+      --feedback-card-width: -80vw;
+    }
+    .feedback-card {
+      min-width: 80vw;
+    }
+  }
